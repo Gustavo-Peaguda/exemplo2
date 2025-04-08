@@ -64,8 +64,37 @@
 // console.log(c == d || d <= c)
 
 //operadores de comparação
-const num5 = 25
-const num6 = 35
-console.log(num5 == num6) //compara
-console.log(num5 === num6) //compara e verifica o tipo da variavel
-console.log(num5 != num6) //diferente
+// const num5 = 25
+// const num6 = 35
+// console.log(num5 == num6) //compara
+// console.log(num5 === num6) //compara e verifica o tipo da variavel
+// console.log(num5 != num6) //diferente
+
+//if
+// let valor1=100;
+// if(valor1 == 100){
+//     console.log("valor correto")
+// }else{
+//     console.log("valor errado")
+// }
+
+//if/else - encadeado ou alinhado
+// let idade = 69;
+// if(idade < 14){
+//     console.log("não pode entrar na balada")
+// }
+// else if(idade >= 14 && idade < 18){
+//     console.log ("pode entrar e curtir")
+// }
+// else if (idade > 50 && idade < 70){
+//     console.log("você não tem idade pra isso")
+// }
+// else{
+//     console.log("fica em casa assistindo TV")
+// }
+
+//condição ternaria
+
+let valor2 =300
+let resultado = valor2 == 300 ? "Certo": "Errado"
+console.log(resultado)
