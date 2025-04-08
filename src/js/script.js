@@ -122,16 +122,29 @@
 // }
 
 //WHILE
-let w = 0
-while(w<=10){
-console.log("o valor de W é",w)
-w++;
+// let w = 0
+// while(w<=10){
+// console.log("o valor de W é",w)
+// w++;
 
-}
+// }
 
 //do while
- let z=10;
- do{
-    console.log("do while é",z)
-    z++;
- }while (z<= 100)
+    // let z=10;
+    // do{
+    //     console.log("do while é",z)
+    //     z++;
+    // }while (z<= 100)
+    
+//FUNÇÕES
+function saudacao(nome){
+    // console.log('Seja bem vindo ', nome)
+    console.log(`Seja bem vindo ${nome}`)
+}
+saudacao("Fiap")
+
+function semaforo(){
+    let sinal="amarelo";
+    console.log(`O semaforo está ${sinal}`)
+}
+semaforo ();
